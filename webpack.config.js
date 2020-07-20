@@ -17,7 +17,7 @@ const optimization = () => {
   if (isProd) {
     config.minimizer = [
       new optimizeCssPlugin(),
-      new optimizeJsPlugin()
+      // new optimizeJsPlugin()
     ]
   }
 

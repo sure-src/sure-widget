@@ -1,6 +1,6 @@
 {
-  "name": "sure-widget-test",
-  "version": "1.0.0",
+  "name": "sure-widget",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,11 +11,11 @@
   "browserslist": "> 0.2%, not dead",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:lastick_ru/sure-widget.git"
+    "url": "https://github.com/sure-src/sure-widget.git"
   },
   "author": "Kirill Zotov",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/lastick_ru/sure-widget#readme",
+  "homepage": "https://github.com/sure-src/sure-widget.git",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
