@@ -1,0 +1,35 @@
+{
+  "name": "sure-widget-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development npx webpack --watch --mode development",
+    "dev": "cross-env NODE_ENV=development npx webpack --mode development",
+    "build": "cross-env NODE_ENV=production npx webpack --mode production"
+  },
+  "browserslist": "> 0.2%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:lastick_ru/sure-widget.git"
+  },
+  "author": "Kirill Zotov",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lastick_ru/sure-widget#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "npx": "^10.2.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "terser-webpack-plugin": "^3.0.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
