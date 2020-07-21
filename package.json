@@ -1,6 +1,6 @@
 {
-  "name": "sure-widget",
-  "version": "1.0.1",
+  "name": "sure-widget-x",
+  "version": "1.0.25",
   "description": "",
   "main": "dist/index.js",
   "scripts": {

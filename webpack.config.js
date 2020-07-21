@@ -16,7 +16,7 @@ const optimization = () => {
 
   if (isProd) {
     config.minimizer = [
-      new optimizeCssPlugin(),
+      // new optimizeCssPlugin(),
       // new optimizeJsPlugin()
     ]
   }
@@ -26,7 +26,8 @@ const optimization = () => {
 
 module.exports = {
   entry: {
-    index: './src/lib/index.js'
+    index: './src/lib/index.js',
+    // app: './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -47,7 +48,6 @@ module.exports = {
               reloadAll: true,
             },
           },
-          // 'style-loader',
           'css-loader',
           'stylus-loader'
         ]
@@ -68,7 +68,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'index.css'
     }),
-    // new CleanWebpackPlugin()
+    new CleanWebpackPlugin()
   ],
   resolve: {
     alias: {
